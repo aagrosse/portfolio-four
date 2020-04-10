@@ -1,0 +1,109 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: #777;
+  }
+  
+  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4  {
+    position: relative;
+    opacity: 0.75 !important;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+  .bgimg-1 {
+    background-image: url(../img/cave.jpg);
+    min-height: 100%;
+  }
+  
+  .bgimg-2 {
+    background-image: url(../img/hike.jpg);
+    min-height: 400px;
+  }
+  
+  .bgimg-3 {
+    background-image: url(../img/az.jpg);
+    min-height: 400px;
+  }
+
+  .bgimg-4 {
+    background-image: url(../img/mex.jpg);
+    min-height: 100%;
+  }
+  
+  .caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+  }
+
+  .caption2 {
+    position: absolute;
+    left: 0;
+    top: 10%;
+    bottom: 10%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    
+  }
+  
+  .caption span.border {
+    
+    color: #fff;
+    padding: 18px;
+    letter-spacing: 0px;
+  }
+  
+  h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: #111;
+  }
+
+  
+svg{
+  font-weight:bold;
+  max-width:800px;
+  height:auto;}
+  
+  /* Turn off parallax scrolling for tablets and phones */
+  @media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+      background-attachment: scroll;
+    }
+  }
+
+  .card {
+    min-height: 260px;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+ #profile {
+    border-radius: 20px !important;
+    opacity: 75%;
+  }
+
+  .shadow{
+    box-shadow: 0 12px 12px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 1px rgba(0, 0, 0, 0.19);
+  }
+
+  .portIm{
+      padding-top: 1em;
+  }
+
+  .profile-image{
+      width: 200px;
+    
+    
+  }
