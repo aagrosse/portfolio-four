@@ -1,3 +1,9 @@
+::selection {
+  color: none;
+  background: none;
+}
+
+
 body, html {
     height: 100%;
     margin: 0;
@@ -38,6 +44,15 @@ body, html {
     position: absolute;
     left: 0;
     top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+  }
+
+  .caption1 {
+    position: absolute;
+    left: 0;
+    top: 40%;
     width: 100%;
     text-align: center;
     color: #000;
@@ -107,3 +122,31 @@ svg{
     
     
   }
+
+  /*
+ *  STYLE 13
+ */
+
+::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.9);
+    border-radius: 10px;
+    background-color: #CCCCCC;
+}
+
+::-webkit-scrollbar
+{
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    background-color: rgb(76,175,80);
+    background-image: -webkit-linear-gradient(90deg,
+                                              transparent,
+                                              rgba(0, 0, 0, 0.4) 50%,
+                                              transparent,
+                                              transparent)
+}
