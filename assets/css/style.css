@@ -123,12 +123,9 @@ svg{
 
   @media only screen and (max-device-width: 319px) {
     .projects {
-      background-color: rgba(255, 255, 255, 0.65); 
-      border-radius: 10px; 
       padding: 2%; 
       max-width: 100%; 
-      border: 1px rgba(29, 29, 29, 0.185) solid
-    }
+      }
   }
 
   @media only screen and (max-device-width: 325px) {
