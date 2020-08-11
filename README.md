@@ -8,21 +8,21 @@
 
 A React based portfolio to showcase my experience and skills using a bootswatch color theme of bootstrap's responsive design.
 
-### About Page
+### Landing Page
 
-![image](/src/assets/about.PNG)
+![image](./assets/img/landing.PNG)
 
-### Portfolio Page
+### Portfolio Section
 
-![image](./src/assets/images/portfolio.PNG)
+![image](./assets/img/portfolio.PNG)
 
-### Resume Page
+### Resume Section
 
-![image](./src/assets/images/resume.PNG)
+![image](./assets/img/resume.PNG)
 
-### Contact Page
+### Contact Section
 
-![image](./src/assets/images/contact.PNG)
+![image](./assets/img/contact.PNG)
 
 ## Usage 
 
