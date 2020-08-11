@@ -119,7 +119,6 @@ svg{
     .bgimg-1, .bgimg-2, .bgimg-3 {
       background-attachment: scroll;
     }
-    
  
   }
 
@@ -135,13 +134,22 @@ svg{
       display: block;
       margin-left: auto;
       margin-right: auto;
-      width: 50%;
+      
     
     
     }
   }
 
-
+  @media only screen and (max-device-width: 700px) {
+    .flip-card{
+      display:block;
+      margin: auto;
+    }
+    #yolo{
+      display:block;
+      margin: auto;
+    }
+  }
 
   .card {
     min-height: 260px;
