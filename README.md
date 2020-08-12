@@ -1,8 +1,8 @@
-# portfolio-four
+# My Portfolio
 
 ## Link
 
-[Portfolio Link](https://aagrosse.github.io/portfolio-four/ "Portfolio")
+[Portfolio Link](http://www.alangrosse.com/ "Portfolio")
 
 ## Description 
 
