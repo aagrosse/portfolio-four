@@ -6,38 +6,49 @@
   <link rel="icon" href="./assets/img/favicon.ico" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.3.1/slate/bootstrap.min.css" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" />
-  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+
+  <link rel="stylesheet" type="text/css" href="css/component.css" />
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
 </head>
 
 <body>
   <div class="scrollbar" id="style-13">
     <div class="force-overflow"></div>
   </div>
+  <div id="large-header" class="large-header">
 
-  <div class="bgimg-1">
-    <div class="caption1">
-      <a href="https://www.linkedin.com/in/alan-grosse" target="_blank">
-        <span>
-          <svg viewbox="0 0 100 20">
-            <defs>
-              <linearGradient id="gradient" x1="0" x2="0" y1="0" y2="1">
-                <stop offset="5%" stop-color="white" />
-                <stop offset="95%" stop-color="white" />
-              </linearGradient>
-              <pattern id="wave" x="0" y="0" width="120" height="20" patternUnits="userSpaceOnUse">
-                <path id="wavePath" d="M-40 9 Q-30 7 -20 9 T0 9 T20 9 T40 9 T60 9 T80 9 T100 9 T120 9 V20 H-40z"
-                  mask="url(#mask)" fill="url(#gradient)">
-                  <animateTransform attributeName="transform" begin="0s" dur="1.5s" type="translate" from="0,0"
-                    to="40,0" repeatCount="indefinite" />
-                </path>
-              </pattern>
-            </defs>
-            <text text-anchor="middle" x="50" y="15" font-size="17" fill="url(#wave)" fill-opacity="0.9">alan
-              grosse</text>
-            <text text-anchor="middle" x="50" y="15" font-size="17" fill="url(#gradient)" fill-opacity="0.5">alan
-              grosse</text>
-          </svg></span></a>
+    <!-- logo goes here -->
+
+    <div class="bgimg-1">
+      <canvas id="demo-canvas"></canvas>
+      <div class="caption1">
+        <a href="https://www.linkedin.com/in/alan-grosse" target="_blank">
+          <span>
+            <svg viewbox="0 0 100 20">
+              <defs>
+                <linearGradient id="gradient" x1="0" x2="0" y1="0" y2="1">
+                  <stop offset="5%" stop-color="white" />
+                  <stop offset="95%" stop-color="white" />
+                </linearGradient>
+                <pattern id="wave" x="0" y="0" width="120" height="20" patternUnits="userSpaceOnUse">
+                  <path id="wavePath" d="M-40 9 Q-30 7 -20 9 T0 9 T20 9 T40 9 T60 9 T80 9 T100 9 T120 9 V20 H-40z"
+                    mask="url(#mask)" fill="url(#gradient)">
+                    <animateTransform attributeName="transform" begin="0s" dur="1.5s" type="translate" from="0,0"
+                      to="40,0" repeatCount="indefinite" />
+                  </path>
+                </pattern>
+              </defs>
+              <text text-anchor="middle" x="50" y="15" font-size="17" fill="url(#wave)" fill-opacity="0.9">alan
+                grosse</text>
+              <text text-anchor="middle" x="50" y="15" font-size="17" fill="url(#gradient)" fill-opacity="0.5">alan
+                grosse</text>
+            </svg></span></a>
+      </div>
     </div>
+
   </div>
   <div class="bio">
     <div class="container">
@@ -84,7 +95,7 @@
       </div>
     </div>
   </div>
-  
+
 
   <div class="bgimg-2">
     <div class="caption">
@@ -296,7 +307,11 @@
   </div>
   </div>
 
+
+
+
   <div class="bgimg-4">
+
     <div class="caption2 ">
 
       <div class="d-flex justify-content-center">
@@ -327,6 +342,10 @@
 
     </div>
   </div>
+  </div>
+
+  </div>
+  </div>
 
   <div style="display:block;text-align:center;">
     <div class="footer" style="color:#ddd;background-color:#282E34;padding:25px 40px;">
@@ -336,6 +355,15 @@
 
     </div>
   </div>
+
+  <script src="js/TweenLite.min.js"></script>
+  <script src="js/EasePack.min.js"></script>
+  <script src="js/demo-1.js"></script>
+
+
+
+
+
 
 </body>
 
