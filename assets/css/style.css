@@ -261,3 +261,20 @@ svg{
   color: white;
   transform: rotateY(180deg);
 }
+
+html,body{
+  margin:0;
+  overflow:hidden;
+  height:100%
+}
+
+	.large-header{
+    background-image: url(../img/hike.jpg);
+    text-align:center
+	}
+#x-canvas{
+  opacity:0.5
+}
+
+
+
